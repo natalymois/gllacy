@@ -313,11 +313,6 @@ body > input[type="radio"] {
     border-radius: 10px;
     text-shadow: 1px 1px 3px #fff;
   }
-  /*.main-header.page .media-li:hover > a {
-    background: #DCEBE2;
-    color: #3F5046;
-  }*/
-
   .drop-menu li.blue {
     background:#7B93AA
   }
@@ -421,8 +416,8 @@ body > input[type="radio"] {
     font-size: 18px;
     color: #fff;
   }
-
   /*---/ конец мобильного меню---*/
+  
   /*Навигация*/
     .main-menu {
       margin-top: 15px;
@@ -998,7 +993,7 @@ body > input[type="radio"] {
           justify-content: space-between;
         }
         .footer-copyright p {
-          font-size: 12px;
+          font-size: 13px;
           font-weight: 500;
           margin: 0;
         }
@@ -1886,6 +1881,9 @@ body > input[type="radio"] {
   }
   .footer-menu .menu-right a {
     margin-left: 0
+  }
+  .footer-menu a {
+    border-bottom: none;
   }
   .footer-menu, .footer-copyright {
     width: 96%;
