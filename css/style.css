@@ -416,8 +416,11 @@ body > input[type="radio"] {
     font-size: 18px;
     color: #fff;
   }
+  .media-li:hover .menu-link.open::after {
+    color: #6C8879;
+  }
   /*---/ конец мобильного меню---*/
-  
+
   /*Навигация*/
     .main-menu {
       margin-top: 15px;
@@ -1713,6 +1716,31 @@ body > input[type="radio"] {
                 background: rgba(255,255, 255, 0.3);
                 color: #fff;
               }
+  .upbutton {
+    background: #E3E3E3;
+    height: 26px;
+    width: 40px;
+    bottom: 30px;
+    right: 30px;
+    cursor: pointer;
+    display: none;
+    position: fixed;
+    border: 2px solid #7D7D7D;
+    border-radius: 5px;
+    text-align: center;
+    z-index: 99;
+  }
+
+  .upbutton::after {
+    display: block;
+    content: "\25b2";
+    position: absolute;
+    top: 1px;
+    left: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #7D7D7D;
+  }
 
 @media screen and (max-width:1200px) {
   .map .address {
